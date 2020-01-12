@@ -2,7 +2,7 @@ extends KinematicBody
 
 export var speed = 6.5
 
-var ammo = 0
+var ammo = 1
 
 var jump_force = 5
 var movement = Vector3()
@@ -12,6 +12,7 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _process(delta):
+	print($Head.global_transform.basis)
 	var input_axis = Vector2()
 	
 	input_axis.y = -Input.get_action_strength("ui_up") + Input.get_action_strength("ui_down")
@@ -23,7 +24,7 @@ func _process(delta):
 	movement.x = input_axis.x * speed
 	movement.y -= gravity * delta
 
-	movement = movement.rotated(Vector3.UP, $Head.rotation.y)
+	movement = movement.rotated(global_transform.basis.y, $Head.rotation.y)
 	
 	if Input.is_action_just_pressed("ui_accept") and ammo > 0:
 		rotation_degrees.z += 180
