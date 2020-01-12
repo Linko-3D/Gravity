@@ -2,18 +2,14 @@ extends KinematicBody
 
 export var speed = 6.5
 
-var ammo = 1
+var ammo = 0
 var flipped = 1
 
 var jump_force = 5
 var movement = Vector3()
 var gravity = 9.8
 
-func _ready():
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
 func _process(delta):
-	print($Head.global_transform.basis)
 	var input_axis = Vector2()
 	
 	input_axis.y = -Input.get_action_strength("ui_up") + Input.get_action_strength("ui_down")
@@ -34,9 +30,6 @@ func _process(delta):
 		ammo -= 1
 		GLOBAL.ammo.text = str(ammo)
 		flipped *= -1
-	
-	if Input.is_action_just_pressed("ui_cancel"):
-		get_tree().quit()
 
 	movement = move_and_slide(movement, Vector3.UP)
 
