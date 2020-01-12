@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/boundaries.obj-276dad303d9abe1189f5d5671b5cfa28.mesh"
+
+[deps]
+
+files=[ "res://.import/boundaries.obj-276dad303d9abe1189f5d5671b5cfa28.mesh" ]
+
+source_file="res://boundaries.obj"
+dest_files=[ "res://.import/boundaries.obj-276dad303d9abe1189f5d5671b5cfa28.mesh", "res://.import/boundaries.obj-276dad303d9abe1189f5d5671b5cfa28.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

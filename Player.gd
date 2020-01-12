@@ -1,6 +1,6 @@
 extends KinematicBody
 
-export var speed = 6.5
+export var speed = 4.0
 
 var ammo = 0
 var flipped = 1
