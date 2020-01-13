@@ -29,7 +29,6 @@ light_indirect_energy = 2.0
 shadow_enabled = true
 
 [node name="Ammos" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="Ammo" parent="Ammos" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -3 )
@@ -38,13 +37,13 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -3 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, -9 )
 
 [node name="Ammo3" parent="Ammos" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.447709, -12.4741 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.534635, -12.4741 )
 
 [node name="Ammo5" parent="Ammos" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.14715, -19.6037 )
 
 [node name="Ammo4" parent="Ammos" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.10771, -15.3304 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.01777, -15.3304 )
 
 [node name="Map" type="MeshInstance" parent="."]
 editor/display_folded = true
