@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wall bot.obj-0bf69ca6c8805adb04a0e629004ebbbf.mesh"
+
+[deps]
+
+files=[ "res://.import/wall bot.obj-0bf69ca6c8805adb04a0e629004ebbbf.mesh" ]
+
+source_file="res://assets/wall bot.obj"
+dest_files=[ "res://.import/wall bot.obj-0bf69ca6c8805adb04a0e629004ebbbf.mesh", "res://.import/wall bot.obj-0bf69ca6c8805adb04a0e629004ebbbf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

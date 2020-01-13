@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ground loot.obj-9a69ca74a04bd6389a2a2a0d0c2d7c61.mesh"
+
+[deps]
+
+files=[ "res://.import/ground loot.obj-9a69ca74a04bd6389a2a2a0d0c2d7c61.mesh" ]
+
+source_file="res://assets/ground loot.obj"
+dest_files=[ "res://.import/ground loot.obj-9a69ca74a04bd6389a2a2a0d0c2d7c61.mesh", "res://.import/ground loot.obj-9a69ca74a04bd6389a2a2a0d0c2d7c61.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

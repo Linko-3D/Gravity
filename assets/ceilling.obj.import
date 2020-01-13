@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ceilling.obj-9bdc2bef62264326b27c032b905d1000.mesh"
+
+[deps]
+
+files=[ "res://.import/ceilling.obj-9bdc2bef62264326b27c032b905d1000.mesh" ]
+
+source_file="res://assets/ceilling.obj"
+dest_files=[ "res://.import/ceilling.obj-9bdc2bef62264326b27c032b905d1000.mesh", "res://.import/ceilling.obj-9bdc2bef62264326b27c032b905d1000.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
