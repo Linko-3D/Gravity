@@ -23,6 +23,10 @@ config/icon="res://icon.png"
 
 GLOBAL="*res://GLOBAL.gd"
 
+[display]
+
+window/size/fullscreen=true
+
 [input]
 
 ui_left={
@@ -65,5 +69,4 @@ restart={
 
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
-quality/filters/msaa=4
-environment/default_environment="res://default_env.tres"
+quality/filters/msaa=2
