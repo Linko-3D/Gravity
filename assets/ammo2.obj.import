@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ammo2.obj-768947c05b457ed903da9d3756c7c6dc.mesh"
+
+[deps]
+
+files=[ "res://.import/ammo2.obj-768947c05b457ed903da9d3756c7c6dc.mesh" ]
+
+source_file="res://assets/ammo2.obj"
+dest_files=[ "res://.import/ammo2.obj-768947c05b457ed903da9d3756c7c6dc.mesh", "res://.import/ammo2.obj-768947c05b457ed903da9d3756c7c6dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

@@ -16,16 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Gravity"
-run/main_scene="res://Map.tscn"
+run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
 GLOBAL="*res://GLOBAL.gd"
-
-[display]
-
-window/size/fullscreen=true
 
 [input]
 

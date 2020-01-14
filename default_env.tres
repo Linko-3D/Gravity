@@ -8,5 +8,4 @@ background_sky = SubResource( 1 )
 tonemap_mode = 3
 tonemap_white = 16.0
 ss_reflections_enabled = true
-ssao_enabled = true
 glow_enabled = true

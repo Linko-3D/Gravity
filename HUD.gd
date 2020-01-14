@@ -9,5 +9,9 @@ func _ready():
 	GLOBAL.ammo = $Ammo
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	print($Timer.time_left)
+
+
+func _on_Timer_timeout():
+	pass # Replace with function body.

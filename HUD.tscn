@@ -30,10 +30,13 @@ text = "0"
 align = 2
 valign = 2
 
-[node name="Label" type="Label" parent="."]
+[node name="Time" type="Label" parent="."]
 margin_left = 30.0
 margin_top = 10.0
 margin_right = 258.0
 margin_bottom = 68.0
 custom_fonts/font = SubResource( 2 )
 text = "00:00:00"
+
+[node name="Timer" type="Timer" parent="."]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
